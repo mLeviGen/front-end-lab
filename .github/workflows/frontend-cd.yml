@@ -45,7 +45,7 @@ jobs:
   # --------------------------------------
   deploy:
     runs-on: ubuntu-latest
-    needs: build-and-publish # Ждем окончания сборки
+    needs: build-and-publish 
     
     steps:
       - name: Azure Login
